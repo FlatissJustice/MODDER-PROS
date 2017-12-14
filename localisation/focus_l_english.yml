@@ -1865,3 +1865,7 @@
  ECH_ast_f_support_desc:0 "[Write some shit here]"
  ECH_ast_c_support:0 "Communism Support In Australia"
  ECH_ast_c_support_desc:0 "[Write some shit here]"
+ ECH_ast_f_corruption:0 "Increase Of Fascism In Australia"
+ ECH_ast_f_corruption_desc:0 "[Write some shit here]"
+ ECH_ast_c_corruption:0 "Increase Of Communism In Australia"
+ ECH_ast_c_corruption_desc:0 "[Write some shit here]"
