@@ -1378,11 +1378,15 @@
  FACTION_NAME_NONALIGNED_4:0 "Confederate $CONTINENT_ADJ$ Nations"
  FACTION_NAME_NONALIGNED_5:0 "The $LEADER_COUNTRY$ Coalition"
  ###############################
- ECH_communism:0 "Echo People Republic"
+ ECH_communism:0 "Echo People's Republic"
  ECH_neutrality:0 "Echo Kingdom"
  ECH_democratic:0 "Echo Republic"
  ECH_fascism:0 "Echo"
-
+ ####
+ ECR_communism:0 "People of Echo"
+ ECR_fascism:0 "Echo Reich"
+ ECR_neutrality:0 "Echo Uprising"
+ ####
  FIJ_communism:0  "Oppailand"
  FIJ_neutrality:0 "For reel womans"
  FIJ_democratic:0 "Pantysekai"
