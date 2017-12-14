@@ -1,0 +1,74 @@
+﻿division_template = {
+	name = "Onfantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+	support = {
+        artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division= {
+		name = "1. Onfantry Division"
+		location = 8200
+		division_template = "Onfantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	
+	division= {
+		name = "2. Onfantry Division"
+		location = 8200
+		division_template = "Onfantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	
+	division= {
+		name = "3. Onfantry Division"
+		location = 8200
+		division_template = "Onfantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	
+	division= {
+		name = "4. Onfantry Division"
+		location = 8200
+		division_template = "Onfantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	
+	division= {
+		name = "5. Onfantry Division"
+		location = 12948
+		division_template = "Onfantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	
+	division= {
+		name = "6. Onfantry Division"
+		location = 12948
+		division_template = "Onfantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	
+	division= {
+		name = "7. Onfantry Division"
+		location = 12948
+		division_template = "Onfantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	
+}

@@ -1,0 +1,22 @@
+ideas = {
+
+	country = {
+		ECH_manpower_boost = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 3
+			}
+			#rule = {
+			#	can_create_factions = yes
+			#}
+		}
