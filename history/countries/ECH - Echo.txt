@@ -1,8 +1,8 @@
 ﻿capital = 517 #Yerevan, Armenia
 
-#oob = "AZR_1936"
+oob = "ECH_1936"
 
-set_research_slots = 3
+set_research_slots = 4
 
 # Starting tech
 set_technology = {
@@ -36,29 +36,37 @@ set_technology = {
 	mass_assault = 1
 	fleet_in_being = 1
 }
-
 set_politics = {
 
 	parties = {
 		fascism = { 
-			popularity = 33
+			popularity = 10
 		}	
 	
 		democratic = { 
-			popularity = 33
+			popularity = 05
 		}
 		
 		communism = {
-			popularity = 34
-		}	
+			popularity = 05
+		}
+		
+		neutrality = { 
+			popularity = 80
+		}
 	}
+	ruling_party = neutrality
 }
 
-set_convoys = 60
+add_ideas = {
+	ECH_manpower_boost
+}
+
+set_convoys = 100
 
 create_country_leader = {
 	name = "Ali Ömer Mısırlı"
-	desc = ""
+	desc = "The Best Leader"
 	picture = "Echo_Leader.dds"
 	expire = "1953.3.1"
 	ideology = nazism
