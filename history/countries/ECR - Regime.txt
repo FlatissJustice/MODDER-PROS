@@ -1,10 +1,5 @@
-﻿capital = 674
+﻿set_research_slots = 3
 
-#oob = "ECH_1936"
-
-set_research_slots = 2
-
-# Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -13,13 +8,13 @@ set_technology = {
 	tech_engineers = 1
 	tech_military_police = 1
 	tech_mountaineers = 1
-#	motorised_infantry = 1
-#	paratroopers = 1
+	motorised_infantry = 1
+	paratroopers = 1
 	gw_artillery = 1
-#	gwtank = 1
-#	basic_light_tank = 1  # PLACEHOLDER
-#	basic_heavy_tank = 1  # PLACEHOLDER
-#	basic_medium_tank = 1 # PLACEHOLDER
+	gwtank = 1
+	basic_light_tank = 1  # PLACEHOLDER
+	basic_heavy_tank = 1  # PLACEHOLDER
+	basic_medium_tank = 1 # PLACEHOLDER
 	early_fighter = 1
 	fighter1 = 1
 	early_bomber = 1
@@ -35,23 +30,6 @@ set_technology = {
 	transport = 1
 	mass_assault = 1
 	fleet_in_being = 1
-}
-
-#add_ideas = {
-#	ECH_manpower_boost
-#}
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = ECH
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = ECH
-	}
 }
 
 set_politics = {
@@ -74,39 +52,7 @@ set_politics = {
 		}
 	}
 	ruling_party = neutrality
+	
 }
 
-#create_country_leader = {
-#	name = "Ali Ömer Mısırlı"
-#	desc = "The Best Leader"
-#	picture = "Echo_Leader.dds"
-#	expire = "1953.3.1"
-#	ideology = nazism
-#	traits = {
-#			dictator
-#	}
-#}
-#
-#create_country_leader = {
-#	name = "Hovhannes Kajaznuni"
-#	desc = ""
-#	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-#	expire = "1953.3.1"
-#	ideology = conservatism
-#	traits = {
-#		
-#	}
-#}
-#
-#create_country_leader = {
-#	name = "Grigor Harutyunyan"
-#	desc = ""
-#	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-#	expire = "1953.3.1"
-#	ideology = stalinism
-#	traits = {
-#		
-#	}
-#}
-
-
+set_convoys = 100
