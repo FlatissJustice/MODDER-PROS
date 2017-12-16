@@ -14,7 +14,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conscription = 3%
+				conscription = 3.00%
 			}
 			#rule = {
 			#	can_create_factions = yes
