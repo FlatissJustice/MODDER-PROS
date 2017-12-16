@@ -12,8 +12,6 @@ ideas = {
 			}
 
 			removal_cost = -1
-
-			picture = great_depression
 			
 			modifier = {
 				unity_factor = -0.15
@@ -21,9 +19,6 @@ ideas = {
 			}
 		}
 		
-		ideas = {
-
-	country = {
 		AST_c_support_1 = {
 
 			allowed = {
@@ -36,17 +31,16 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = great_depression
 			
 			modifier = {
 				unity_factor = -0.15
 				communism_drift = 0.05
 			}
 		}
-###############
-#^##MY PART##^#
-###############
-	country = {
+#######################################
+#######################################
+#######################################
+	
 		AST_great_depression_1 = {
 
 			allowed = {
