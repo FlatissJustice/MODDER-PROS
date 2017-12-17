@@ -140,6 +140,11 @@ focus_tree = {
 			ENG = {
 				remove_from_faction = AST
 			}
+			AST = {
+				set_rule = {
+					can_join_factions = no
+				}
+			}
 		}
 	}
 ###
