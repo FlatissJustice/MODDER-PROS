@@ -37,6 +37,42 @@ ideas = {
 				communism_drift = 0.05
 			}
 		}
+		
+		AST_f_support_0 = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = -0.30
+				fascism_drift = 0.07
+			}
+		}
+		
+		AST_c_support_0 = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = -0.30
+				communism_drift = 0.07
+			}
+		}
 #######################################
 #######################################
 #######################################
