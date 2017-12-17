@@ -30,30 +30,3 @@ country_event = {
 		}
 	}
 }
-
-country_event = {
-	id = echo.1
-	title = echo.1.t
-	desc = echo.1.d
-	picture = GFX_report_event_journalists_speech
-	
-	is_triggered_only = no
-	fire_only_once = yes
-	
-	trigger = {
-		tag = ECH
-		AND = {
-			date > 1937.1.1
-			num_divisions > 12
-		}
-	}
-	
-	option = {
-		name = Okay
-		ai_chance = { factor = 100 }
-		declare_war_on = {
-		target = AST
-		type = annex_everything
-		}
-	}
-}

@@ -2472,8 +2472,15 @@
  small_arms_limited:0 "Small Arms Limited"
  communism_banned:0 "Communism Banned"
  takuo_godo:0 "Takuo Godo"
- ###############
- ###############
- ###############
+ ################
+ ##VVV#ECHO#VVV##
+ ################
  ECH_manpower_boost:0 "High Manpower"
  ECH_manpower_boost_desc:0 "Every man must fight for his country."
+ #################
+ #VV#AUSTRALIA#VV#
+ #################
+ AST_f_support_1:0 "Fascism Support"
+ AST_f_support_1_desc:0 "Fascism Support"
+ AST_c_support_1:0 "Communism Support"
+ AST_c_support_1_desc:0 "Communism Support"
