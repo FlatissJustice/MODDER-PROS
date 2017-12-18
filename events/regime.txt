@@ -19,6 +19,9 @@ country_event = {
 	option = {
 		name = Okay
 		ai_chance = { factor = 100 }
+		create_unit = { division = "name = Onfantry Division division_template = Onfantry Division starting_experience_factor = 1.0" }
+		create_unit = { division = "name = Onfantry Division division_template = Onfantry Division starting_experience_factor = 1.0" }
+		create_unit = { division = "name = Onfantry Division division_template = Onfantry Division starting_experience_factor = 1.0" }
 		declare_war_on = {
 		target = AST
 		type = annex_everything

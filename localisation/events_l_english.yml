@@ -2947,3 +2947,8 @@
  echo.1.d:0 "All Continent of Australia must belong to Echo for a fair leadership over the people. This war will change the history for better!"
  echo.2.t:0 "A Great Victory"
  echo.2.d:0 "Australian people surrender to our superior power. We will see what will happen after this moment."
+ news.600.t:0 "New Ruler Of Australian Continent"
+ news.600.d:0 "Australian Continent has a new ruler, Echo. After events happened at Australia all continent was captured by Echo." 
+ news.600.a:0 "Interesting"
+ news.600.b:0 "Finally"
+ news.600.c:0 "We Lost An Ally"

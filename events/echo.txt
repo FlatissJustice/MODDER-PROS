@@ -25,6 +25,7 @@ country_event = {
 	option = {
 		name = Okay
 		ai_chance = { factor = 100 }
+		news_event = news.600
 		annex_country = {
 		target = AST
 		}
