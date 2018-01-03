@@ -189,6 +189,7 @@ focus_tree = {
 
 		completion_reward = {
 			ECR = {
+				add_state_core = 520
 				transfer_state = 520 
 				set_politics = {
 					ruling_party = fascism
@@ -215,6 +216,7 @@ focus_tree = {
 
 		completion_reward = {
 			ECR = {
+				add_state_core = 520
 				transfer_state = 520 
 				set_politics = {
 					ruling_party = communism
@@ -451,7 +453,7 @@ focus = {
 ###
 	focus = {
 		id = ECH_Echoizm_Focus
-		icon = GFX_focus_research
+		icon = GFX_goal_not_generic_echoizm
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Collective_Ethos }
 		mutually_exclusive = { focus = ECH_Communism_Focus}

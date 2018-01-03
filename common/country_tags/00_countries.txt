@@ -114,4 +114,6 @@ MAN = "countries/Manchukou.txt"
 ##############
 ECH = "countries/Echo.txt"
 ECR = "countries/Regime.txt"
-FIJ = "countries/Flat Is Justice"
+EAL = "countries/AfricanLeague.txt"
+FIJ = "countries/FlatIsJustice.txt"
+

@@ -20,3 +20,40 @@ ideas = {
 			#	can_create_factions = yes
 			#}
 		}
+	}
+		
+	political_advisor = {
+
+		ECH_mumtaz_okmen = {
+
+			picture = generic_political_advisor_europe_5
+
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		ECH_hassan_saka = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { ideological_crusader }
+		}
+
+		ECH_kazim_ozalp = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { war_industrialist }
+		}
+	}
