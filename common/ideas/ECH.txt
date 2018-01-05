@@ -1,6 +1,42 @@
 ideas = {
 
 	country = {
+	#################
+		ECH_liberty_ethos_focus = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.2
+				fascism_drift = -0.2
+			}
+		}
+		
+		ECH_collective_ethos = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = -0.2
+			}
+		}
+	#################
 		ECH_manpower_boost = {
 			
 			allowed = {
