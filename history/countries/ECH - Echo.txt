@@ -1,4 +1,4 @@
-﻿capital = 517 #Yerevan, Armenia
+﻿capital = 517 #Victoria
 
 oob = "ECH_1936"
 
