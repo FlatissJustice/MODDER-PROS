@@ -33,6 +33,17 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			AST = {
+				674 = {
+					add_core_of = ECH
+				}	
+				520 = {
+					add_core_of = ECH
+				}	
+			}
+			521 = {
+				set_demilitarized_zone = no
+			}
 			set_political_power = 100
 		}
 	}
@@ -535,13 +546,260 @@ focus = {
 		}
 	}
 ###
-#X#
+	focus = {
+		id = ECH_Echoizm_2
+		icon = GFX_goal_not_generic_echoizm
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Echoizm_Focus }
+		x = 6
+		y = 3
+		cost = 3
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_politics = { ruling_party = fascism elections_allowed = no }
+		}
+	}
 ###
+	focus = {
+		id = ECH_Communism_2
+		icon = GFX_goal_not_generic_echoizm
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Communism_Focus }
+		x = 8
+		y = 3
+		cost = 3
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_politics = { ruling_party = fascism elections_allowed = no }
+		}
+	}
+###
+	focus = {
+		id = ECH_Non_Aligned_Focus_2
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Non_Aligned_Focus }
+		x = 14
+		y = 3
+		cost = 3
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+###
+	focus = {
+		id = ECH_Communism_3
+		icon = GFX_goal_not_generic_echoizm
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Communism_2 }
+		x = 8
+		y = 4
+		cost = 3
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_politics = { ruling_party = fascism elections_allowed = no }
+		}
+	}
+###
+	focus = {
+		id = ECH_Echoizm_3
+		icon = GFX_goal_not_generic_echoizm
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Echoizm_2 }
+		x = 6
+		y = 4
+		cost = 3
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_politics = { ruling_party = fascism elections_allowed = no }
+		}
+	}
+###
+	focus = {
+		id = ECH_Naturality_2
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Naturality_Focus }
+		x = 10
+		y = 4
+		cost = 3
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_politics = { ruling_party = democratic elections_allowed = yes }
+		}
+	}
+###
+	focus = {
+		id = ECH_Reactionary_Democracy_2
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Reactionary_Democracy }
+		x = 12
+		y = 4
+		cost = 3
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_politics = { ruling_party = democratic elections_allowed = yes }
+		}
+	}
+###
+	focus = {
+		id = ECH_Non_Aligned_Focus_3
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Non_Aligned_Focus_2 }
+		x = 14
+		y = 4
+		cost = 3
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+###
+	focus = {
+		id = ECH_Echoizm_4
+		icon = GFX_goal_not_generic_echoizm
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Echoizm_3 }
+		x = 6
+		y = 5
+		cost = 3
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_politics = { ruling_party = fascism elections_allowed = no }
+		}
+	}
+###
+	focus = {
+		id = ECH_Communism_4
+		icon = GFX_goal_not_generic_echoizm
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Communism_3 }
+		x = 8
+		y = 5
+		cost = 3
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_politics = { ruling_party = fascism elections_allowed = no }
+		}
+	}
+###
+	focus = {
+		id = ECH_Naturality_3
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Naturality_2 }
+		x = 10
+		y = 5
+		cost = 3
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_politics = { ruling_party = democratic elections_allowed = yes }
+		}
+	}
+###
+	focus = {
+		id = ECH_Reactionary_Democracy_3
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Reactionary_Democracy_2 }
+		x = 12
+		y = 5
+		cost = 3
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_politics = { ruling_party = democratic elections_allowed = yes }
+		}
+	}
+###
+	focus = {
+		id = ECH_Non_Aligned_Focus_4
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Non_Aligned_Focus_3 }
+		x = 14
+		y = 5
+		cost = 3
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+#####
+#X#X#
+#####
 	focus = {
 		id = ECH_Place_holder_2
 		icon = GFX_focus_research
 		#text = extra_tech_slot
-		prerequisite = { focus = ECH_Reactionary_Democracy }
+		prerequisite = { focus = ECH_Reactionary_Democracy_3 }
 		mutually_exclusive = { focus = ECH_Place_holder_3 }
 		x = 10
 		y = 6
@@ -561,7 +819,7 @@ focus = {
 		id = ECH_Place_holder_3
 		icon = GFX_focus_research
 		#text = extra_tech_slot
-		prerequisite = { focus = ECH_Reactionary_Democracy focus = ECH_Non_Aligned_Focus }
+		prerequisite = { focus = ECH_Reactionary_Democracy_3 focus = ECH_Non_Aligned_Focus_4 }
 		mutually_exclusive = { focus = ECH_Place_holder_2 focus = ECH_Place_holder_4 }
 		x = 12
 		y = 6
@@ -581,7 +839,7 @@ focus = {
 		id = ECH_Place_holder_1
 		icon = GFX_focus_research
 		#text = extra_tech_slot
-		prerequisite = { focus = ECH_Communism_Focus focus = ECH_Echoizm_Focus }
+		prerequisite = { focus = ECH_Communism_4 focus = ECH_Echoizm_4 }
 		#mutually_exclusive = { focus = ECH_Naturality_Focus }
 		x = 7
 		y = 6
@@ -601,7 +859,7 @@ focus = {
 		id = ECH_Place_holder_4
 		icon = GFX_focus_research
 		#text = extra_tech_slot
-		prerequisite = { focus = ECH_Non_Aligned_Focus }
+		prerequisite = { focus = ECH_Non_Aligned_Focus_4 }
 		mutually_exclusive = { focus = ECH_Place_holder_3 }
 		x = 14
 		y = 6
