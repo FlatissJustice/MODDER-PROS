@@ -60,7 +60,7 @@ ideas = {
 		
 	political_advisor = {
 
-		ECH_mumtaz_okmen = {
+		ECH_sakin_phara = {
 
 			picture = generic_political_advisor_europe_5
 
@@ -71,7 +71,7 @@ ideas = {
 			traits = { captain_of_industry }
 		}
 
-		ECH_hassan_saka = {
+		ECH_yamato_san = {
 
 			picture = generic_political_advisor_europe_2
 				
@@ -82,7 +82,7 @@ ideas = {
 			traits = { ideological_crusader }
 		}
 
-		ECH_kazim_ozalp = {
+		ECH_mina_desu = {
 
 			picture = generic_political_advisor_europe_3
 			

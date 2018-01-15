@@ -25,7 +25,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 0
-		cost = 3
+		cost = 10
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -63,7 +63,7 @@ focus_tree = {
 		}
 		x = 1
 		y = 1
-		cost = 1
+		cost = 10
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -92,7 +92,7 @@ focus_tree = {
 		}
 		x = 3
 		y = 1
-		cost = 1
+		cost = 10
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -114,7 +114,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ECH_ast_leaving_faction}
 		x = 0
 		y = 2
-		cost = 1
+		cost = 10
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -140,7 +140,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ECH_ast_c_corruption}
 		x = 2
 		y = 2
-		cost = 1
+		cost = 10
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -167,7 +167,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ECH_ast_leaving_faction}
 		x = 4
 		y = 2
-		cost = 1
+		cost = 10
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -191,7 +191,7 @@ focus_tree = {
 		prerequisite = { focus = ECH_ast_f_corruption }
 		x = 0
 		y = 3
-		cost = 3
+		cost = 10
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -218,7 +218,7 @@ focus_tree = {
 		prerequisite = { focus = ECH_ast_c_corruption }
 		x = 4
 		y = 3
-		cost = 3
+		cost = 10
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -244,7 +244,7 @@ focus_tree = {
 		prerequisite = { focus = ECH_ast_leaving_faction }
 		x = 2
 		y = 3
-		cost = 3
+		cost = 10
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -274,7 +274,7 @@ focus_tree = {
 		}
 		x = 4
 		y = 4
-		cost = 3
+		cost = 10
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -301,7 +301,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 4
-		cost = 3
+		cost = 10
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -329,7 +329,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 5
-		cost = 3
+		cost = 10
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -349,7 +349,7 @@ focus_tree = {
 		prerequisite = { focus = ECH_factory_boost }
 		x = 2
 		y = 6
-		cost = 3
+		cost = 10
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -384,7 +384,7 @@ focus = {
 ###
 focus = {
 		id = ECH_Liberty_Ethos
-		icon = GFX_focus_research
+		icon = GFX_goal_support_democracy
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Political_Focus }
 		mutually_exclusive = { focus = ECH_Collective_Ethos}
@@ -448,7 +448,7 @@ focus = {
 ###
 	focus = {
 		id = ECH_Democracy_Focus
-		icon = GFX_focus_research
+		icon = GFX_goal_generic_neutrality_focus
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Liberty_Ethos }
 		mutually_exclusive = { focus = ECH_Non_Aligned_Focus}
@@ -468,7 +468,7 @@ focus = {
 ###
 	focus = {
 		id = ECH_Echoizm_Focus
-		icon = GFX_goal_not_generic_echoizm
+		icon = GFX_goal_support_fascism
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Collective_Ethos }
 		mutually_exclusive = { focus = ECH_Communism_Focus}
@@ -488,7 +488,7 @@ focus = {
 ###
 	focus = {
 		id = ECH_Communism_Focus
-		icon = GFX_focus_research
+		icon = GFX_goal_support_communism
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Collective_Ethos }
 		mutually_exclusive = { focus = ECH_Echoizm_Focus}
@@ -508,7 +508,7 @@ focus = {
 ###
 	focus = {
 		id = ECH_Naturality_Focus
-		icon = GFX_focus_research
+		icon = GFX_goal_generic_defence
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Democracy_Focus }
 		mutually_exclusive = { focus = ECH_Reactionary_Democracy}
@@ -528,7 +528,7 @@ focus = {
 ###
 	focus = {
 		id = ECH_Reactionary_Democracy
-		icon = GFX_focus_research
+		icon = GFX_goal_generic_political_pressure
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Democracy_Focus }
 		mutually_exclusive = { focus = ECH_Naturality_Focus}
@@ -548,7 +548,7 @@ focus = {
 ###
 	focus = {
 		id = ECH_Echoizm_2
-		icon = GFX_goal_not_generic_echoizm
+		icon = GFX_goal_support_fascism
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Echoizm_Focus }
 		x = 6
@@ -567,7 +567,7 @@ focus = {
 ###
 	focus = {
 		id = ECH_Communism_2
-		icon = GFX_goal_not_generic_echoizm
+		icon = GFX_goal_support_communism
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Communism_Focus }
 		x = 8
@@ -605,7 +605,7 @@ focus = {
 ###
 	focus = {
 		id = ECH_Communism_3
-		icon = GFX_goal_not_generic_echoizm
+		icon = GFX_goal_support_communism
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Communism_2 }
 		x = 8
@@ -624,7 +624,7 @@ focus = {
 ###
 	focus = {
 		id = ECH_Echoizm_3
-		icon = GFX_goal_not_generic_echoizm
+		icon = GFX_goal_support_fascism
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Echoizm_2 }
 		x = 6
@@ -643,7 +643,7 @@ focus = {
 ###
 	focus = {
 		id = ECH_Naturality_2
-		icon = GFX_focus_research
+		icon = GFX_goal_generic_defence
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Naturality_Focus }
 		x = 10
@@ -662,7 +662,7 @@ focus = {
 ###
 	focus = {
 		id = ECH_Reactionary_Democracy_2
-		icon = GFX_focus_research
+		icon = GFX_goal_generic_political_pressure
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Reactionary_Democracy }
 		x = 12
@@ -700,7 +700,7 @@ focus = {
 ###
 	focus = {
 		id = ECH_Echoizm_4
-		icon = GFX_goal_not_generic_echoizm
+		icon = GFX_goal_support_fascism
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Echoizm_3 }
 		x = 6
@@ -719,7 +719,7 @@ focus = {
 ###
 	focus = {
 		id = ECH_Communism_4
-		icon = GFX_goal_not_generic_echoizm
+		icon = GFX_goal_support_communism
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Communism_3 }
 		x = 8
@@ -738,7 +738,7 @@ focus = {
 ###
 	focus = {
 		id = ECH_Naturality_3
-		icon = GFX_focus_research
+		icon = GFX_goal_generic_defence
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Naturality_2 }
 		x = 10
@@ -757,7 +757,7 @@ focus = {
 ###
 	focus = {
 		id = ECH_Reactionary_Democracy_3
-		icon = GFX_focus_research
+		icon = GFX_goal_generic_political_pressure
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Reactionary_Democracy_2 }
 		x = 12

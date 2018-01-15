@@ -2477,6 +2477,12 @@
  ################
  ECH_manpower_boost:0 "High Manpower"
  ECH_manpower_boost_desc:0 "Every man must fight for his country."
+ #########################
+ ##VVV#ECHO#POLITICALVVV##
+ #########################
+ ECH_sakin_phara:0 "Sakin Phara"
+ ECH_yamato_san:0 "Yamato San"
+ ECH_mina_desu:0 "Mina Desu(Minachu)"
  #################
  #VV#AUSTRALIA#VV#
  #################
