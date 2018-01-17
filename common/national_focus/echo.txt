@@ -23,7 +23,7 @@ focus_tree = {
 					}
 			}
 		}
-		x = 2
+		x = 4
 		y = 0
 		cost = 10
 		#ai_will_do = {
@@ -49,11 +49,174 @@ focus_tree = {
 	}
 ###
 	focus = {
+		id = ECH_Bozan_Australia_0
+		icon = GFX_goal_generic_demand_territory
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_ast_focus }
+		mutually_exclusive = { focus = ECH_ast_c_support focus = ECH_ast_f_support focus = ECH_Democracy_Australia}
+		available = {
+			if = {
+				OR = {
+					has_government = communism
+					has_government = fascism
+				}
+			}
+		}
+		x = 0
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+###
+	focus = {
+		id = ECH_Bozan_Australia_1
+		icon = GFX_goal_generic_demand_territory
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Bozan_Australia_0  }
+		available = {
+			if = {
+				OR = {
+					has_government = communism
+					has_government = fascism
+				}
+			}
+		}
+		x = 0
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+###
+	focus = {
+		id = ECH_Bozan_Australia_2
+		icon = GFX_goal_generic_demand_territory
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Bozan_Australia_1 }
+		available = {
+			if = {
+				OR = {
+					has_government = communism
+					has_government = fascism
+				}
+			}
+		}
+		x = 0
+		y = 3
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+###
+	focus = {
+		id = ECH_Bozan_Australia_3
+		icon = GFX_goal_generic_demand_territory
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Bozan_Australia_2 }
+		available = {
+			if = {
+				OR = {
+					has_government = communism
+					has_government = fascism
+				}
+			}
+		}
+		x = 0
+		y = 4
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+###
+	focus = {
+		id = ECH_Bozan_Australia_4
+		icon = GFX_goal_generic_demand_territory
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Bozan_Australia_3 }
+		available = {
+			if = {
+				OR = {
+					has_government = communism
+					has_government = fascism
+				}
+			}
+		}
+		x = 0
+		y = 5
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+###
+	focus = {
+		id = ECH_Bozan_Australia_5
+		icon = GFX_goal_generic_demand_territory
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Bozan_Australia_4 }
+		available = {
+			if = {
+				OR = {
+					has_government = communism
+					has_government = fascism
+				}
+			}
+		}
+		x = 0
+		y = 6
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+###
+	focus = {
 		id = ECH_ast_f_support
 		icon = GFX_goal_support_fascism
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_ast_focus }
-		mutually_exclusive = { focus = ECH_ast_c_support}
+		mutually_exclusive = { focus = ECH_ast_c_support focus = ECH_Bozan_Australia_0 focus = ECH_Democracy_Australia }
 		available = {
 			if = {
 					OR = {
@@ -61,7 +224,7 @@ focus_tree = {
 					}
 			}
 		}
-		x = 1
+		x = 3
 		y = 1
 		cost = 10
 		#ai_will_do = {
@@ -82,7 +245,7 @@ focus_tree = {
 		icon = GFX_goal_support_communism
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_ast_focus }
-		mutually_exclusive = { focus = ECH_ast_f_support}
+		mutually_exclusive = { focus = ECH_ast_f_support focus = ECH_Bozan_Australia_0 focus = ECH_Democracy_Australia }
 		available = {
 			if = {
 					OR = {
@@ -90,7 +253,7 @@ focus_tree = {
 					}
 			}
 		}
-		x = 3
+		x = 5
 		y = 1
 		cost = 10
 		#ai_will_do = {
@@ -112,7 +275,7 @@ focus_tree = {
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_ast_f_support }
 		mutually_exclusive = { focus = ECH_ast_leaving_faction}
-		x = 0
+		x = 2
 		y = 2
 		cost = 10
 		#ai_will_do = {
@@ -138,7 +301,7 @@ focus_tree = {
 		prerequisite = { focus = ECH_ast_f_support focus = ECH_ast_c_support}
 		mutually_exclusive = { focus = ECH_ast_f_corruption}
 		mutually_exclusive = { focus = ECH_ast_c_corruption}
-		x = 2
+		x = 4
 		y = 2
 		cost = 10
 		#ai_will_do = {
@@ -165,7 +328,7 @@ focus_tree = {
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_ast_c_support }
 		mutually_exclusive = { focus = ECH_ast_leaving_faction}
-		x = 4
+		x = 6
 		y = 2
 		cost = 10
 		#ai_will_do = {
@@ -189,7 +352,7 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_ast_f_corruption }
-		x = 0
+		x = 2
 		y = 3
 		cost = 10
 		#ai_will_do = {
@@ -216,7 +379,7 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_ast_c_corruption }
-		x = 4
+		x = 6
 		y = 3
 		cost = 10
 		#ai_will_do = {
@@ -242,7 +405,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_war
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_ast_leaving_faction }
-		x = 2
+		x = 4
 		y = 3
 		cost = 10
 		#ai_will_do = {
@@ -272,7 +435,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = 4
+		x = 6
 		y = 4
 		cost = 10
 		#ai_will_do = {
@@ -299,7 +462,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = 0
+		x = 2
 		y = 4
 		cost = 10
 		#ai_will_do = {
@@ -327,7 +490,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = 2
+		x = 4
 		y = 5
 		cost = 10
 		#ai_will_do = {
@@ -347,7 +510,200 @@ focus_tree = {
 		icon = GFX_focus_research
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_factory_boost }
-		x = 2
+		x = 4
+		y = 6
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+###
+	focus = {
+		id = ECH_Democracy_Australia
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_ast_focus }
+		mutually_exclusive = { focus = ECH_ast_f_support focus = ECH_Bozan_Australia_0 focus = ECH_ast_c_support }
+		x = 10
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+###
+	focus = {
+		id = ECH_Democracy_Australia_Reactionary
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Democracy_Australia }
+		mutually_exclusive = { focus = ECH_Democracy_Australia_Naturality}
+		x = 11
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+###
+	focus = {
+		id = ECH_Democracy_Australia_Naturality
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Democracy_Australia }
+		mutually_exclusive = { focus = ECH_Democracy_Australia_Reactionary}
+		x = 9
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+###
+	focus = {
+		id = ECH_Democracy_Australia_Naturality_1
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Democracy_Australia_Naturality }
+		x = 9
+		y = 3
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+###
+	focus = {
+		id = ECH_Democracy_Australia_Reactionary_1
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Democracy_Australia_Reactionary }
+		x = 11
+		y = 3
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+###
+	focus = {
+		id = ECH_Democracy_Australia_Reactionary_2
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Democracy_Australia_Reactionary_1 }
+		x = 12
+		y = 4
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+###
+	focus = {
+		id = ECH_Democracy_Australia_Naturality_2
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Democracy_Australia_Naturality_1 }
+		x = 8
+		y = 4
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+###
+	focus = {
+		id = ECH_Democracy_Australia_Speech
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Democracy_Australia_Naturality_1 focus = ECH_Democracy_Australia_Reactionary_1 }
+		x = 10
+		y = 4
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+###
+	focus = {
+		id = ECH_Democracy_Australia_Re_Construction
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Democracy_Australia_Naturality_2 focus = ECH_Democracy_Australia_Reactionary_2 }
+		x = 10
+		y = 5
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+###
+	focus = {
+		id = ECH_Democracy_Australia_Research
+		icon = GFX_focus_research
+		#text = extra_tech_slot
+		prerequisite = { focus = ECH_Democracy_Australia_Re_Construction }
+		x = 10
 		y = 6
 		cost = 10
 		#ai_will_do = {
@@ -368,7 +724,7 @@ focus = {
 		icon = GFX_goal_generic_demand_territory
 		#text = extra_tech_slot
 		#prerequisite = { focus = ECH_factory_boost }
-		x = 10
+		x = 18
 		y = 0
 		cost = 3
 		#ai_will_do = {
@@ -388,7 +744,7 @@ focus = {
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Political_Focus }
 		mutually_exclusive = { focus = ECH_Collective_Ethos}
-		x = 13
+		x = 21
 		y = 1
 		cost = 3
 		#ai_will_do = {
@@ -410,7 +766,7 @@ focus = {
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Political_Focus }
 		mutually_exclusive = { focus = ECH_Liberty_Ethos}
-		x = 7
+		x = 15
 		y = 1
 		cost = 3
 		#ai_will_do = {
@@ -432,7 +788,7 @@ focus = {
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Liberty_Ethos }
 		mutually_exclusive = { focus = ECH_Democracy_Focus}
-		x = 14
+		x = 22
 		y = 2
 		cost = 3
 		#ai_will_do = {
@@ -452,7 +808,7 @@ focus = {
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Liberty_Ethos }
 		mutually_exclusive = { focus = ECH_Non_Aligned_Focus}
-		x = 12
+		x = 20
 		y = 2
 		cost = 3
 		#ai_will_do = {
@@ -472,7 +828,7 @@ focus = {
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Collective_Ethos }
 		mutually_exclusive = { focus = ECH_Communism_Focus}
-		x = 6
+		x = 14
 		y = 2
 		cost = 3
 		#ai_will_do = {
@@ -492,7 +848,7 @@ focus = {
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Collective_Ethos }
 		mutually_exclusive = { focus = ECH_Echoizm_Focus}
-		x = 8
+		x = 16
 		y = 2
 		cost = 3
 		#ai_will_do = {
@@ -512,7 +868,7 @@ focus = {
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Democracy_Focus }
 		mutually_exclusive = { focus = ECH_Reactionary_Democracy}
-		x = 10
+		x = 18
 		y = 3
 		cost = 3
 		#ai_will_do = {
@@ -532,7 +888,7 @@ focus = {
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Democracy_Focus }
 		mutually_exclusive = { focus = ECH_Naturality_Focus}
-		x = 12
+		x = 20
 		y = 3
 		cost = 3
 		#ai_will_do = {
@@ -551,7 +907,7 @@ focus = {
 		icon = GFX_goal_support_fascism
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Echoizm_Focus }
-		x = 6
+		x = 14
 		y = 3
 		cost = 3
 		#ai_will_do = {
@@ -570,7 +926,7 @@ focus = {
 		icon = GFX_goal_support_communism
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Communism_Focus }
-		x = 8
+		x = 16
 		y = 3
 		cost = 3
 		#ai_will_do = {
@@ -589,7 +945,7 @@ focus = {
 		icon = GFX_focus_research
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Non_Aligned_Focus }
-		x = 14
+		x = 22
 		y = 3
 		cost = 3
 		#ai_will_do = {
@@ -608,7 +964,7 @@ focus = {
 		icon = GFX_goal_support_communism
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Communism_2 }
-		x = 8
+		x = 16
 		y = 4
 		cost = 3
 		#ai_will_do = {
@@ -627,7 +983,7 @@ focus = {
 		icon = GFX_goal_support_fascism
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Echoizm_2 }
-		x = 6
+		x = 14
 		y = 4
 		cost = 3
 		#ai_will_do = {
@@ -646,7 +1002,7 @@ focus = {
 		icon = GFX_goal_generic_defence
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Naturality_Focus }
-		x = 10
+		x = 18
 		y = 4
 		cost = 3
 		#ai_will_do = {
@@ -665,7 +1021,7 @@ focus = {
 		icon = GFX_goal_generic_political_pressure
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Reactionary_Democracy }
-		x = 12
+		x = 20
 		y = 4
 		cost = 3
 		#ai_will_do = {
@@ -684,7 +1040,7 @@ focus = {
 		icon = GFX_focus_research
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Non_Aligned_Focus_2 }
-		x = 14
+		x = 22
 		y = 4
 		cost = 3
 		#ai_will_do = {
@@ -703,7 +1059,7 @@ focus = {
 		icon = GFX_goal_support_fascism
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Echoizm_3 }
-		x = 6
+		x = 14
 		y = 5
 		cost = 3
 		#ai_will_do = {
@@ -722,7 +1078,7 @@ focus = {
 		icon = GFX_goal_support_communism
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Communism_3 }
-		x = 8
+		x = 16
 		y = 5
 		cost = 3
 		#ai_will_do = {
@@ -741,7 +1097,7 @@ focus = {
 		icon = GFX_goal_generic_defence
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Naturality_2 }
-		x = 10
+		x = 18
 		y = 5
 		cost = 3
 		#ai_will_do = {
@@ -760,7 +1116,7 @@ focus = {
 		icon = GFX_goal_generic_political_pressure
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Reactionary_Democracy_2 }
-		x = 12
+		x = 20
 		y = 5
 		cost = 3
 		#ai_will_do = {
@@ -779,7 +1135,7 @@ focus = {
 		icon = GFX_focus_research
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Non_Aligned_Focus_3 }
-		x = 14
+		x = 22
 		y = 5
 		cost = 3
 		#ai_will_do = {
@@ -801,7 +1157,7 @@ focus = {
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Reactionary_Democracy_3 }
 		mutually_exclusive = { focus = ECH_Place_holder_3 }
-		x = 10
+		x = 19
 		y = 6
 		cost = 3
 		#ai_will_do = {
@@ -821,7 +1177,7 @@ focus = {
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Reactionary_Democracy_3 focus = ECH_Non_Aligned_Focus_4 }
 		mutually_exclusive = { focus = ECH_Place_holder_2 focus = ECH_Place_holder_4 }
-		x = 12
+		x = 21
 		y = 6
 		cost = 3
 		#ai_will_do = {
@@ -841,7 +1197,7 @@ focus = {
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Communism_4 focus = ECH_Echoizm_4 }
 		#mutually_exclusive = { focus = ECH_Naturality_Focus }
-		x = 7
+		x = 15
 		y = 6
 		cost = 3
 		#ai_will_do = {
@@ -861,7 +1217,7 @@ focus = {
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Non_Aligned_Focus_4 }
 		mutually_exclusive = { focus = ECH_Place_holder_3 }
-		x = 14
+		x = 23
 		y = 6
 		cost = 3
 		#ai_will_do = {
