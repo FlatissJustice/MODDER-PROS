@@ -7,6 +7,17 @@ bookmarks = {
 		default_country = "GER"
 		default = yes
 		
+		"ECH"={
+			history = "ECH_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				ECH_manpower_boost
+			}	
+			focuses = {
+				ECH_ast_focus
+				ECH_Bozan_Australia_0
+			}			
+		}
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -76,17 +87,6 @@ bookmarks = {
 				ITA_italy_first
 			}		
 		}
-		"ECH"={
-			history = "ECH_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				ECH_manpower_boost
-			}	
-			focuses = {
-				ECH_ast_focus
-				ECH_Bozan_Australia_0
-			}			
-		}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
@@ -107,19 +107,6 @@ bookmarks = {
 
 
 		# minors from DLC ####
-		"POL"={
-			minor = yes
-			history = "POL_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				
-			}
-			focuses = {
-				POL_the_baltic_alliance
-				POL_draw_closer_to_britain
-				POL_seek_accommodation_with_germany
-			}
-		}
 		"JAP"={
 			minor = yes
 			history = "JAP_GATHERING_STORM_DESC"
@@ -132,6 +119,19 @@ bookmarks = {
 				divine_wind_focus
 				found_own_faction_focus
 			}			
+		}
+		"POL"={
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				POL_the_baltic_alliance
+				POL_draw_closer_to_britain
+				POL_seek_accommodation_with_germany
+			}
 		}
 		"CAN"={
 			minor = yes

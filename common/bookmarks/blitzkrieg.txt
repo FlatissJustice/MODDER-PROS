@@ -5,7 +5,18 @@ bookmarks = {
 		date = 1939.8.14.12
 		picture = "GFX_select_date_1939"
 		default_country = "GER"
-	
+		
+		ECH = {
+			history = ECH_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas = {
+				ECH_manpower_boost
+			}	
+			focuses = {
+				ECH_ast_focus
+				ECH_Bozan_Australia_0
+			}
+		}			
 		FRA = {
 			history = FRA_BLITZKRIEG_DESC
 			ideology = democratic
@@ -51,7 +62,6 @@ bookmarks = {
 				bomber_command_focus
 				maud_focus
 			}
-			
 		}
 		GER = {
 			history = GER_BLITZKRIEG_DESC
@@ -79,23 +89,6 @@ bookmarks = {
 				ITA_italy_first
 			}			
 		}
-		JAP = {
-			history = JAP_BLITZKRIEG_DESC
-			ideology = fascism
-			ideas={
-				state_shintoism
-				the_long_lance
-				spiritual_mobilization_idea
-				warrior_traditions_idea
-				student_mobilization_idea
-				imperial_austerity_idea
-			}	
-			focuses = {
-				southern_expansion_focus
-				divine_wind_focus
-				found_own_faction_focus
-			}		
-		}
 		SOV = {
 			history = SOV_BLITZKRIEG_DESC
 			ideology = communism
@@ -117,6 +110,18 @@ bookmarks = {
 		}
 
 		# minors from DLC ####
+		"JAP" = {
+			minor = yes
+			history = JAP_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas={
+				state_shintoism
+				the_long_lance
+				spiritual_mobilization_idea
+				warrior_traditions_idea
+				student_mobilization_idea
+				imperial_austerity_idea
+			}	
 		"POL"={
 			minor = yes
 			history = "POL_BLITZKRIEG_DESC"
