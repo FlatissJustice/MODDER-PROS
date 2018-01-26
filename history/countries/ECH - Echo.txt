@@ -88,7 +88,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bozan"
+	name = "Mehmet Bozan"
 	desc = "Bozanizm Is Better"
 	picture = "Echo_Leader_Bozan.dds"
 	expire = "1953.3.1"
@@ -104,6 +104,28 @@ create_country_leader = {
 	picture = "Echo_Leader_Naci.dds"
 	expire = "1953.3.1"
 	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Yasri Uçkun"
+	desc = "Olley!"
+	picture = "Echo_Leader_Yasri.dds"
+	expire = "1953.3.1"
+	ideology = reactionary
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ömer Kebenç"
+	desc = "Why I Am Here?"
+	picture = "Echo_Leader_Ömer.dds"
+	expire = "1953.3.1"
+	ideology = naturalism
 	traits = {
 		
 	}

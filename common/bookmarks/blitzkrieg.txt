@@ -122,6 +122,7 @@ bookmarks = {
 				student_mobilization_idea
 				imperial_austerity_idea
 			}	
+		}
 		"POL"={
 			minor = yes
 			history = "POL_BLITZKRIEG_DESC"
