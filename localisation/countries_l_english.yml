@@ -1387,7 +1387,22 @@
  ECR_fascism:0 "Echo Reich"
  ECR_neutrality:0 "Echo Uprising"
  ####
- FIJ_communism:0  "Oppailand"
- FIJ_neutrality:0 "For reel womans"
- FIJ_democratic:0 "Pantysekai"
+ FIJ_communism:0  "Oppai Land"
+ FIJ_neutrality:0 "For Reel Womans"
+ FIJ_democratic:0 "Panty Sekai"
  FIJ_fascism:0 "Flat is Justice"
+ ####
+ EIR_fascism:0 "Echo Indian Regime"
+ EIR_communism:0 "Echo Indian Regime"
+ EIR_democratic:0 "Echo Indian Regime"
+ EIR_neutrality:0 "Echo Indian Regime"
+ ####
+ EAL_fascism:0 "African League"
+ EAL_communism:0 "African League"
+ EAL_democratic:0 "African League"
+ EAL_neutrality:0 "African League"
+ ####
+ EOM_fascism:0 "Echo Oman Empire"
+ EOM_communism:0 "People of Echo Oman"
+ EOM_democratic:0 "Echo Oman"
+ EOM_neutrality:0 "Echo Oman"

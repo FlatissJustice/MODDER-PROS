@@ -1,4 +1,4 @@
-﻿#capital = 520 #Up Australia
+﻿capital = 743 #Up Australia
 
 oob = "EOM_1936"
 
