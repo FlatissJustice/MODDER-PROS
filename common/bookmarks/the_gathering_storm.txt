@@ -107,6 +107,21 @@ bookmarks = {
 
 
 		# minors from DLC ####
+		"EOM"={
+			minor = yes
+			history = "EOM_GATHERING_STORM_DESC"
+			ideology = fascism			
+		}
+		"EIR"={
+			minor = yes
+			history = "EIR_GATHERING_STORM_DESC"
+			ideology = fascism			
+		}
+		"EAL"={
+			minor = yes
+			history = "EAL_GATHERING_STORM_DESC"
+			ideology = fascism			
+		}
 		"JAP"={
 			minor = yes
 			history = "JAP_GATHERING_STORM_DESC"

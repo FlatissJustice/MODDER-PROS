@@ -110,6 +110,21 @@ bookmarks = {
 		}
 
 		# minors from DLC ####
+		"EOM" = {
+			minor = yes
+			history = EOM_BLITZKRIEG_DESC
+			ideology = fascism
+		}
+		"EIR" = {
+			minor = yes
+			history = EIR_BLITZKRIEG_DESC
+			ideology = fascism	
+		}
+		"EAL" = {
+			minor = yes
+			history = EOM_BLITZKRIEG_DESC
+			ideology = fascism	
+		}
 		"JAP" = {
 			minor = yes
 			history = JAP_BLITZKRIEG_DESC

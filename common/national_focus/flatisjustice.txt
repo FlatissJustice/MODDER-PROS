@@ -1,0 +1,11 @@
+focus_tree = {
+	id = flat_is_justice_focus
+	
+	country = {
+		factor = 0
+			
+		modifier = {
+			add = 10
+			tag = FIJ
+		}
+	}

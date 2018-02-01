@@ -1,0 +1,19 @@
+focus_tree = {
+	id = echo_generic_focus
+	
+	country = {
+		factor = 0
+			
+		modifier = {
+			add = 10
+			tag = EOM
+		}
+		modifier = {
+			add = 10
+			tag = EIR
+		}
+		modifier = {
+			add = 10
+			tag = EAL
+		}
+	}
