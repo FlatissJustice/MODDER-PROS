@@ -477,7 +477,7 @@ focus_tree = {
 ###
 	focus = {
 		id = ECH_Democracy_Australia
-		icon = GFX_focus_research
+		icon = GFX_goal_generic_dangerous_deal
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_ast_focus }
 		mutually_exclusive = { focus = ECH_ast_f_support focus = ECH_Bozan_Australia_0 focus = ECH_ast_c_support }
@@ -499,7 +499,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_research_slot = 1
+			news_event = echo.congress
 		}
 	}
 ###

@@ -1,5 +1,31 @@
 ﻿add_namespace = echo
 
+news_event = {
+	id = echo.congress
+	title = echo.congress.t
+	picture = GFX_news_event_generic_sign_treaty3
+	desc = { 
+		text = echo.congress.a
+		trigger = {
+			NOT = { tag = ECH }
+		}
+	}
+	desc = {
+		text = echo.congress.b
+		trigger = {
+			tag = ECH
+		}
+	}
+	major = yes
+	is_triggered_only = no
+	fire_only_once = yes
+	option = {
+		name = Okay
+		ai_chance = { factor = 100 }
+		}
+	}
+}
+	
 country_event = {
 	id = echo.2
 	title = echo.2.t
