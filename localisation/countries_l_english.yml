@@ -1383,8 +1383,8 @@
  ECH_democratic:0 "Echo Republic"
  ECH_fascism:0 "Echo"
  ####
- ECR_communism:0 "People of Echo"
- ECR_fascism:0 "Echo Reich"
+ ECR_communism:0 "Echo Communist Uprising"
+ ECR_fascism:0 "Echo Fascist Uprising"
  ECR_neutrality:0 "Echo Uprising"
  ####
  FIJ_communism:0  "Oppai Land"

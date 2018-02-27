@@ -1893,5 +1893,13 @@
  ECH_Liberty_Ethos_desc:0 "[Write some shit here]"
  ECH_Collective_Ethos:0 "Collective Ethos"
  ECH_Collective_Ethos_desc:0 "[Write some shit here]"
- 
- 
+ ECH_Army_focus:0 "Army Focus"
+ ECH_Army_focus_desc:0 "[Write some shit here]"
+ ECH_Naval_Focus:0 "Naval Focus"
+ ECH_Naval_Focus_desc:0 "[Write some shit here]"
+ ECH_Plane:0 "Aviation Focus"
+ ECH_Plane_desc:0 "[Write some shit here]"
+ ECH_TNK_Army_focus:0 "Blitzkrieg Focus"
+ ECH_TNK_Army_focus_desc:0 "[Write some shit here]"
+ ECH_INF_Army_focus:0 "Superior Firepower Focus"
+ ECH_INF_Army_focus_desc:0 "[Write some shit here]"
