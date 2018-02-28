@@ -124,6 +124,27 @@ ideas = {
 			#	can_create_factions = yes
 			#}
 		}
+	###
+		ECH_Amphibious_invasion = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				invasion_preparation = -0.3
+				amphibious_invasion = 0.10
+			}
+			#rule = {
+			#	can_create_factions = yes
+			#}
+		}
 	}
 		
 	political_advisor = {

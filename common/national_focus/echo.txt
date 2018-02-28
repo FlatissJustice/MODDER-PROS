@@ -26,7 +26,19 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 0.6
+				uses = 3
+				category = nuclear
+			}
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.3
+				uses = 2
+				category = nuclear
+			}
 		}
 	}
 ###	
@@ -45,13 +57,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 0.5
-				uses = 1
-				category = land_doctrine
-			}
+			army_experience = 15
 		}
 	}
 ###
@@ -75,7 +81,7 @@ focus_tree = {
 				name = land_doc_bonus
 				bonus = 0.2
 				uses = 1
-				category = land_doctrine
+				category = cat_superior_firepower
 			}
 		}
 	}
@@ -95,6 +101,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.4
+				uses = 2
+				category = artillery
+			}
 		}
 	}
 ###
@@ -113,7 +125,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.6
+				uses = 1
+				category = artillery
+			}
 		}
 	}
 ###
@@ -132,7 +149,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.6
+				uses = 2
+				category = cat_superior_firepower
+			}
 		}
 	}
 ###
@@ -151,7 +173,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.4
+				uses = 2
+				category = infantry_weapons
+			}
 		}
 	}
 ###
@@ -170,7 +197,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.6
+				uses = 1
+				category = infantry_weapons
+			}
 		}
 	}
 ###
@@ -191,7 +223,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			army_experience = 10
+			add_tech_bonus = {
+				bonus = 0.6 
+				uses = 1 
+				category = para_tech 
+				category = marine_tech
+				category = mountaineers_tech
+			}
 		}
 	}
 ###
@@ -210,12 +249,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 5
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 0.2
 				uses = 1
-				category = land_doctrine
+				category = cat_mobile_warfare
 			}
 		}
 	}
@@ -235,12 +273,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 5
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 0.6
 				uses = 2
-				category = land_doctrine
+				category = cat_mobile_warfare
 			}
 		}
 	}
@@ -260,7 +297,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.6
+				uses = 2
+				category = cat_anti_tank
+			}
 		}
 	}
 ###
@@ -304,9 +346,9 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = motorized_bonus
-				ahead_reduction = 0.5
+				ahead_reduction = 0.6
 				uses = 2
-				category = motorized_equipment
+				category = cat_mechanized_equipment
 			}
 		}
 	}
@@ -327,7 +369,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_ideas = ECH_Amphibious_invasion
 		}
 	}
 ###
@@ -346,7 +388,16 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_tech_bonus = {
+				bonus = 0.2 
+				uses = 1 
+				category = cat_light_armor
+			}
+			add_tech_bonus = {
+				bonus = 0.6 
+				uses = 2 
+				category = cat_medium_armor
+			}	
 		}
 	}
 ###
@@ -366,7 +417,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			army_experience = 10
+			add_tech_bonus = {
+				bonus = 0.6 
+				uses = 1 
+				category = para_tech 
+				category = marine_tech
+				category = mountaineers_tech
+			}
 		}
 	}
 ###
