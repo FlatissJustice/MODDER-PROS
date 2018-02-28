@@ -66,6 +66,7 @@ focus_tree = {
 		icon = GFX_goal_generic_axis_build_infantry
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Army_focus }
+		mutually_exclusive = { focus = ECH_TNK_Army_focus}
 		x = 1
 		y = 1
 		cost = 10
@@ -239,6 +240,7 @@ focus_tree = {
 		icon = GFX_goal_generic_build_tank
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Army_focus }
+		mutually_exclusive = { focus = ECH_INF_Army_focus}
 		x = 5
 		y = 1
 		cost = 10
