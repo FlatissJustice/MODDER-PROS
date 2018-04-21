@@ -1,0 +1,25 @@
+ideas = {
+
+	country = {
+	
+		Boosto = {
+		
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+				ai_call_ally_desire_factor = -200
+				training_time_factor = -0.9
+			}
+		}
+	}
+}
+		
+		

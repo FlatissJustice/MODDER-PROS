@@ -43,7 +43,7 @@ focus_tree = {
 	}
 ###	
 	focus = {
-		id = ECH_Army_focus
+		id = ECH_Army_focus	
 		icon = GFX_goal_generic_military_sphere
 		#text = extra_tech_slot
 		#prerequisite = { focus = ITA_industrial_effort_2 }
@@ -58,6 +58,8 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 15
+			remove_ideas = ECH_Army_Corruption
+			country_event = echo.1
 		}
 	}
 ###
@@ -445,7 +447,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			519 = { 
+				add_building_construction = {
+					type = dockyard
+					level = 2 
+					instant_build = yes 
+				} 
+			}
 		}
 	}
 ###
@@ -454,6 +462,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Naval_Focus }
+		mutually_exclusive = { focus = ECH_Amphibious_Invasion_Focus}
 		x = 14
 		y = 1
 		cost = 10
@@ -464,7 +473,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.3
+				uses = 3
+				category = naval_doctrine
+			}
+			navy_experience = 20
 		}
 	}
 ###
@@ -473,6 +488,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_anti_submarine
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Naval_Focus }
+		mutually_exclusive = { focus = ECH_Naval_Power_Focus}
 		x = 12
 		y = 1
 		cost = 10
@@ -483,7 +499,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.3
+				uses = 3
+				category = naval_doctrine
+			}
+			navy_experience = 20
 		}
 	}
 ###
@@ -502,7 +524,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			519 = { 
+				add_building_construction = {
+					type = dockyard
+					level = 2 
+					instant_build = yes 
+				} 
+			}
+			navy_experience = 20
 		}
 	}
 ###
@@ -521,7 +550,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.3
+				uses = 3
+				category = dd_tech   
+				category = cl_tech
+				category = ca_tech
+			}
 		}
 	}
 ###
@@ -540,7 +576,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.3
+				uses = 3
+				category = ss_tech
+			}
 		}
 	}
 ###
@@ -559,7 +600,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			519 = { 
+				add_building_construction = {
+					type = dockyard
+					level = 4 
+					instant_build = yes 
+				} 
+			}
+			navy_experience = 20
 		}
 	}
 ###
@@ -578,7 +626,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.3
+				uses = 3
+				category = cv_tech
+			}
 		}
 	}
 ###
@@ -597,7 +650,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.8
+				uses = 1
+				category = cv_tech
+			}
 		}
 	}
 ###
@@ -655,13 +713,18 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.3
+				uses = 3
+				category = bb_tech
+			}
 		}
 	}
 ###
 	focus = {
 		id = ECH_Convoy_0
-		icon = GFX_goal_generic_navy_anti_submarine
+		icon = GFX_ech_convoy
 		#text = extra_tech_slot
 		prerequisite = {focus = ECH_Amphibious_Invasion_Focus }
 		x = 10
@@ -674,13 +737,18 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.3
+				uses = 3
+				category = convoy_defense_tree
+			}
 		}
 	}
 ###
 	focus = {
 		id = ECH_Convoy_1
-		icon = GFX_goal_generic_navy_anti_submarine
+		icon = GFX_ech_convoy
 		#text = extra_tech_slot
 		prerequisite = {focus = ECH_Convoy_0 }
 		x = 10
@@ -693,7 +761,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_political_power = 100
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.6
+				uses = 1
+				category = convoy_defense_tree
+			}
 		}
 	}
 ###
@@ -960,6 +1033,345 @@ focus_tree = {
 
 		completion_reward = {
 			set_political_power = 100
+		}
+	}
+#############################################
+#############################################
+#############################################
+
+	focus = {
+		id = ECH_Echonomy
+		icon = GFX_goal_generic_production
+		#text = extra_tech_slot
+		#prerequisite = {focus = ECH_Heavy }
+		x = 35
+		y = 0
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	
+	focus = {
+		id = ECH_Echonomy_Left_0
+		icon = GFX_goal_generic_construct_mil_factory
+		#text = extra_tech_slot
+		prerequisite = {focus = ECH_Echonomy }
+		x = 34
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			521 = { add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
+			522 = { add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
+		}
+	}
+	
+	focus = {
+		id = ECH_Echonomy_Right_0
+		icon = GFX_goal_generic_construct_civ_factory
+		#text = extra_tech_slot
+		prerequisite = {focus = ECH_Echonomy }
+		x = 36
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			521 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+			522 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+			
+		}
+	}
+	
+	focus = {
+		id = ECH_Echonomy_Left_1
+		icon = GFX_goal_generic_construct_mil_factory
+		#text = extra_tech_slot
+		prerequisite = {focus = ECH_Echonomy_Left_0 }
+		x = 34
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			521 = { add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
+			517 = { add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
+		}
+	}
+	
+	focus = {
+		id = ECH_Echonomy_Right_1
+		icon = GFX_goal_generic_construct_civ_factory
+		#text = extra_tech_slot
+		prerequisite = {focus = ECH_Echonomy_Right_0 }
+		x = 36
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			521 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+			517 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+		}
+	}
+	
+	focus = {
+		id = ECH_Echonomy_Mil
+		icon = GFX_goal_generic_construct_military
+		#text = extra_tech_slot
+		prerequisite = {focus = ECH_Echonomy_Left_1 focus = ECH_Echonomy_Right_1 }
+		mutually_exclusive = { focus = ECH_Echonomy_Civ }
+		x = 33
+		y = 3
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_political_power = 200
+		}
+	}
+	
+	focus = {
+		id = ECH_Echonomy_Mil_Final
+		icon = GFX_goal_generic_construct_mil_factory
+		#text = extra_tech_slot
+		prerequisite = {focus = ECH_Echonomy_Mil_Left_1 }
+		prerequisite = {focus = ECH_Echonomy_Mil_Right_1 }
+		x = 33
+		y = 6
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			517 = { add_building_construction = { type = arms_factory level = 3 instant_build = yes } }
+		}
+	}
+	
+	focus = {
+		id = ECH_Echonomy_Mil_Left_0
+		icon = GFX_goal_generic_production
+		#text = extra_tech_slot
+		prerequisite = {focus = ECH_Echonomy_Mil }
+		x = 32
+		y = 4
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = ECH_Mil_Bonus_1
+		}
+	}
+	
+	focus = {
+		id = ECH_Echonomy_Mil_Left_1
+		icon = GFX_goal_rhineland
+		#text = extra_tech_slot
+		prerequisite = {focus = ECH_Echonomy_Mil_Left_0 }
+		x = 32
+		y = 5
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = ECH_Mil_Bonus_2
+		}
+	}
+	
+	focus = {
+		id = ECH_Echonomy_Mil_Right_0
+		icon = GFX_goal_generic_fortify_city
+		#text = extra_tech_slot
+		prerequisite = {focus = ECH_Echonomy_Mil }
+		x = 34
+		y = 4
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = ECH_Mil_Bonus_3
+		}
+	}
+	
+	focus = {
+		id = ECH_Echonomy_Mil_Right_1
+		icon = GFX_goal_generic_position_armies
+		#text = extra_tech_slot
+		prerequisite = {focus = ECH_Echonomy_Mil_Right_0 }
+		x = 34
+		y = 5
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = ECH_Mil_Bonus_4
+		}
+	}
+	
+	focus = {
+		id = ECH_Echonomy_Civ
+		icon = GFX_goal_generic_production2
+		#text = extra_tech_slot
+		prerequisite = {focus = ECH_Echonomy_Right_1 focus = ECH_Echonomy_Left_1}
+		x = 37
+		y = 3
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_political_power = 200
+		}
+	}
+	
+	focus = {
+		id = ECH_Echonomy_Civ_Final
+		icon = GFX_goal_generic_construct_civ_factory
+		#text = extra_tech_slot
+		prerequisite = {focus = ECH_Echonomy_Civ_Left_1 }
+		prerequisite = {focus = ECH_Echonomy_Civ_Right_1 }
+		x = 37
+		y = 6
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			517 = { add_building_construction = { type = industrial_complex level = 3 instant_build = yes } }
+		}
+	}
+	
+	focus = {
+		id = ECH_Echonomy_Civ_Left_0
+		icon = GFX_goal_generic_construct_infrastructure
+		#text = extra_tech_slot
+		prerequisite = {focus = ECH_Echonomy_Civ}
+		x = 36
+		y = 4
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = ECH_Civ_Bonus_1
+		}
+	}
+	
+	focus = {
+		id = ECH_Echonomy_Civ_Left_1
+		icon = GFX_goal_generic_construction
+		#text = extra_tech_slot
+		prerequisite = {focus = ECH_Echonomy_Civ_Left_0}
+		x = 36
+		y = 5
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = ECH_Civ_Bonus_2
+		}
+	}
+	
+	focus = {
+		id = ECH_Echonomy_Civ_Right_0
+		icon = GFX_goal_generic_construction2
+		#text = extra_tech_slot
+		prerequisite = {focus = ECH_Echonomy_Civ}
+		x = 38
+		y = 4
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_resource = { type = oil amount = 8 state = 519 }
+		}
+	}
+	
+	focus = {
+		id = ECH_Echonomy_Civ_Right_1
+		icon = GFX_goal_generic_construction2
+		#text = extra_tech_slot
+		prerequisite = {focus = ECH_Echonomy_Civ_Right_0}
+		x = 38
+		y = 5
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_resource = { type = rubber amount = 12 state = 285 }
 		}
 	}
 #############################################
@@ -1275,6 +1687,8 @@ focus_tree = {
 					ruling_party = fascism
 					elections_allowed = no 
 				}
+				add_manpower = 78000
+				add_timed_idea = { idea = Boosto days = 180 }
 			}
 			
 		}
@@ -1302,6 +1716,8 @@ focus_tree = {
 					ruling_party = communism
 					elections_allowed = no 
 				}
+				add_manpower = 78000
+				add_timed_idea = { idea = Boosto days = 180 }
 			}
 		}
 	}
@@ -1343,7 +1759,7 @@ focus_tree = {
 		}
 		x = 46
 		y = 4
-		cost = 10
+		cost = 1
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -1370,7 +1786,7 @@ focus_tree = {
 		}
 		x = 42
 		y = 4
-		cost = 10
+		cost = 1
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -1548,7 +1964,7 @@ focus_tree = {
 ###
 	focus = {
 		id = ECH_Democracy_Australia_Reactionary_2
-		icon = GFX_focus_research
+		icon = GFX_goal_generic_political_pressure
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Democracy_Australia_Reactionary_1 }
 		x = 52
@@ -1561,13 +1977,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_research_slot = 1
+			AST = {
+				country_event = echo.3
+			}
 		}
 	}
 ###
 	focus = {
 		id = ECH_Democracy_Australia_Naturality_2
-		icon = GFX_focus_research
+		icon = GFX_goal_generic_political_pressure
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Democracy_Australia_Naturality_1 }
 		x = 48
@@ -1580,18 +1998,20 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_research_slot = 1
+			AST = {
+				country_event = echo.4
+			}
 		}
 	}
 ###
 	focus = {
 		id = ECH_Democracy_Australia_Speech
-		icon = GFX_focus_research
+		icon = GFX_goal_generic_improve_relations
 		#text = extra_tech_slot
 		prerequisite = { focus = ECH_Democracy_Australia_Naturality_1 focus = ECH_Democracy_Australia_Reactionary_1 }
 		x = 50
 		y = 4
-		cost = 10
+		cost = 5
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -1599,7 +2019,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_research_slot = 1
+			random_list = {
+				90 = {
+					add_political_power = 200 
+				} 
+				10 = {
+					add_political_power = -100 
+				} 
+			}
 		}
 	}
 ###
@@ -1819,7 +2246,7 @@ focus = {
 			create_country_leader = {
 				name = "Ömer Kebenç"
 				desc = "Why I Am Here?"
-				picture = "Echo_Leader_Ömer.dds"
+				picture = "Echo_Leader_Omer.dds"
 				expire = "1953.3.1"
 				ideology = liberalism
 				traits = {

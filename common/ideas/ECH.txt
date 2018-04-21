@@ -1,6 +1,113 @@
 ideas = {
 
 	country = {
+	
+	#################
+	
+	ECH_Civ_Bonus_1 = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+			}
+	}
+		
+	ECH_Civ_Bonus_2 = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+			}
+	}
+	
+	ECH_Mil_Bonus_1 = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+			}
+	}
+		
+	ECH_Mil_Bonus_2 = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_anti_air_building_factor = 0.3
+			}
+	}
+	
+	ECH_Mil_Bonus_3 = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_bunker_factor = 0.3
+				production_speed_coastal_bunker_factor = 0.3
+			}
+	}
+		
+	ECH_Mil_Bonus_4 = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_radar_station_factor = 0.15
+				production_speed_rocket_site_factor = 0.15	
+			}
+	}
+	
 	#################
 		ECH_liberty_ethos_focus = {
 			
@@ -140,6 +247,27 @@ ideas = {
 			modifier = {
 				invasion_preparation = -0.3
 				amphibious_invasion = 0.10
+			}
+			#rule = {
+			#	can_create_factions = yes
+			#}
+		}
+	###
+		ECH_Army_Corruption = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				planning_speed = -0.20
+				army_morale_factor = -0.1
 			}
 			#rule = {
 			#	can_create_factions = yes

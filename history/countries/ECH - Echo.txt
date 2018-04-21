@@ -61,6 +61,7 @@ set_politics = {
 
 add_ideas = {
 	ECH_manpower_boost
+	ECH_Army_Corruption
 }
 
 set_convoys = 100

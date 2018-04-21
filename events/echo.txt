@@ -22,7 +22,31 @@ news_event = {
 	option = {
 		name = Okay
 		ai_chance = { factor = 100 }
-		}
+	}
+}
+
+country_event = {
+	id = echo.1
+	title = echo.1.t
+	desc = echo.1.d
+	picture = GFX_report_event_journalists_speech
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = echo.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = -200
+	}
+	
+	option = {
+		name = echo.1.b
+		ai_chance = { factor = 100 }
+		add_popularity = { ideology = fascism popularity = 0.1 }
+		add_popularity = { ideology = communism popularity = 0.1 }
+		add_popularity = { ideology = democratic popularity = 0.1 }
+		add_national_unity = -0.10
 	}
 }
 	
@@ -54,6 +78,130 @@ country_event = {
 		news_event = news.600
 		annex_country = {
 		target = AST
+		}
+	}
+}
+
+country_event = {
+	id = echo.3
+	title = echo.3.t
+	desc = echo.3.d
+	picture = GFX_report_event_journalists_speech
+	
+	is_triggered_only = no
+	fire_only_once = yes
+	
+	option = {
+		name = echo.3.a
+		ai_chance = { factor = 100 }
+		if = {
+			limit = {
+				ECH = { has_completed_focus = ECH_Democracy_Australia_Speech }
+			}
+			random_list = {
+				95 = {
+					ECH = {
+						annex_country = { target = AST }
+						news_event = event
+					}
+				} 
+				5 = {
+					AST = {
+						create_faction = "Australian Resistance"
+					}
+					ECH = {
+						create_wargoal = { type = annex_everything target = AST }
+						news_event = event
+					}
+				} 
+			}
+		}
+		
+		if = {
+			limit = {
+				NOT = {
+					ECH = { has_completed_focus = ECH_Democracy_Australia_Speech }
+				}
+			}
+			random_list = {
+				60 = {
+					ECH = {
+						annex_country = { target = AST }
+						news_event = event
+					}
+				} 
+				40 = {
+					AST = {
+						create_faction = "Australian Resistance"
+					}
+					ECH = {
+						create_wargoal = { type = annex_everything target = AST }
+						news_event = event
+					}
+				} 
+			}
+		}
+	}
+}
+
+country_event = {
+	id = echo.4
+	title = echo.4.t
+	desc = echo.4.d
+	picture = GFX_report_event_journalists_speech
+	
+	is_triggered_only = no
+	fire_only_once = yes
+	
+	option = {
+		name = echo.4.a
+		ai_chance = { factor = 100 }
+		if = {
+			limit = {
+				ECH = { has_completed_focus = ECH_Democracy_Australia_Speech }
+			}
+			random_list = {
+				95 = {
+					ECH = {
+						annex_country = { target = AST }
+						news_event = event
+					}
+				} 
+				5 = {
+					AST = {
+						create_faction = "Australian Resistance"
+					}
+					ECH = {
+						create_wargoal = { type = annex_everything target = AST }
+						news_event = event
+					}
+				} 
+			}
+		}
+		
+		if = {
+			limit = {
+				NOT = {
+					ECH = { has_completed_focus = ECH_Democracy_Australia_Speech }
+				}
+			}
+			random_list = {
+				60 = {
+					ECH = {
+						annex_country = { target = AST }
+						news_event = event
+					}
+				} 
+				40 = {
+					AST = {
+						create_faction = "Australian Resistance"
+					}
+					ECH = {
+						create_wargoal = { type = annex_everything target = AST }
+						news_event = event
+					}
+				} 
+			}
 		}
 	}
 }
