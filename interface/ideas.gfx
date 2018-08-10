@@ -3631,7 +3631,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_democratic_europe.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_ECH_manpower_boost	"
-		texturefile = "gfx/interface/ideas/generic_manpower_bonus.dds"
+		name = "GFX_manpower_boost"
+		texturefile = "gfx/interface/ideas/idea_generic_war_preparation.dds"
+	}
+	spriteType = {
+		name = "GFX_army_corruption"
+		texturefile = "gfx/interface/ideas/idea_generic_army_problems.dds"
 	}
 }

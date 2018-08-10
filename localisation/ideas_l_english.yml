@@ -2527,6 +2527,8 @@
  ################
  ECH_manpower_boost:0 "Belief in Echo"
  ECH_manpower_boost_desc:0 "Every man must fight for Echo if required."
+ ECH_Army_Corruption:0 "Corruption in Army"
+ ECH_Army_Corruption_desc:0 "We need to act on this fast as possible."
  #########################
  ##VVV#ECHO#POLITICALVVV##
  #########################
@@ -2537,6 +2539,6 @@
  #VV#AUSTRALIA#VV#
  #################
  AST_f_support_1:0 "Fascism Support"
- AST_f_support_1_desc:0 "Fascism Support"
+ AST_f_support_1_desc:0 "Fascism support increases in Australia."
  AST_c_support_1:0 "Communism Support"
- AST_c_support_1_desc:0 "Communism Support"
+ AST_c_support_1_desc:0 "Communism support increases in Australia."

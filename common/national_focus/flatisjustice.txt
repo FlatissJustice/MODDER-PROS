@@ -9,3 +9,28 @@ focus_tree = {
 			tag = FIJ
 		}
 	}
+	
+	focus = {
+		id = FIJ_Baha_Doesnt_Like_Me_focus
+		icon = GFX_goal_generic_military_sphere
+		#text = extra_tech_slot
+		#prerequisite = { focus = ITA_industrial_effort_2 }
+		x = 0
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 15
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.9
+				uses = 3
+				category = land_doctrine
+			}
+		}
+	}

@@ -214,6 +214,8 @@ ideas = {
 	#################
 		ECH_manpower_boost = {
 			
+			picture = manpower_boost
+			
 			allowed = {
 				always = yes
 			}
@@ -253,7 +255,9 @@ ideas = {
 			#}
 		}
 	###
-		ECH_Army_Corruption = {
+		ECH_army_corruption = {
+			
+			picture = army_corruption
 			
 			allowed = {
 				always = yes
@@ -266,7 +270,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				planning_speed = -0.20
+				planning_speed = -0.10
+				army_org_Factor = -0.05
+				army_core_attack_factor = -0.05
 				army_morale_factor = -0.1
 			}
 			#rule = {

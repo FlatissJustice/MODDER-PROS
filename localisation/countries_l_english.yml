@@ -1379,7 +1379,7 @@
  FACTION_NAME_NONALIGNED_5:0 "The $LEADER_COUNTRY$ Coalition"
  ###############################
  ECH_communism:0 "Echo People's Republic"
- ECH_neutrality:0 "Echo Kingdom"
+ ECH_neutrality:0 "Echo Kingdoms"
  ECH_democratic:0 "Echo"
  ECH_fascism:0 "Echo"
  ####

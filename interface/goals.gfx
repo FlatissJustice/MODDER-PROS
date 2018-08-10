@@ -1261,6 +1261,14 @@ spriteTypes = {
 		name = "GFX_ech_convoy"
 		texturefile = "gfx/interface/goals/ech_convoy.dds"
 	}
-
-
+	
+	SpriteType = { 
+		name = "GFX_goal_italy"
+		texturefile = "gfx/interface/goals/goal_italy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_goal_ethiopia"
+		texturefile = "gfx/interface/goals/goal_ethiopia.dds"
+	}
 }
