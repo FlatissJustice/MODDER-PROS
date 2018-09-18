@@ -1249,7 +1249,7 @@ spriteTypes = {
 	}
 	
 ##########
-##########echo
+########## Echo
 ##########
 
 	SpriteType = { 
@@ -1271,4 +1271,29 @@ spriteTypes = {
 		name = "GFX_goal_ethiopia"
 		texturefile = "gfx/interface/goals/goal_ethiopia.dds"
 	}
+	
+##########
+########## Flat Is Justice
+##########
+
+	SpriteType = { 
+		name = "GFX_goal_communist_baha"
+		texturefile = "gfx/interface/goals/goal_communist_baha.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_goal_democracy_baha"
+		texturefile = "gfx/interface/goals/goal_democracy_baha.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_goal_fascist_baha"
+		texturefile = "gfx/interface/goals/goal_fascist_baha.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_goal_non_alligned_baha"
+		texturefile = "gfx/interface/goals/goal_non_alligned_baha.dds"
+	}
+
 }

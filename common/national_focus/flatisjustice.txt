@@ -9,13 +9,14 @@ focus_tree = {
 			tag = FIJ
 		}
 	}
-	
+###
 	focus = {
-		id = FIJ_Baha_Doesnt_Like_Me_focus
-		icon = GFX_goal_generic_military_sphere
+		id = FIJ_Weeb
+		icon = GFX_goal_commuist_baha
 		#text = extra_tech_slot
-		#prerequisite = { focus = ITA_industrial_effort_2 }
-		x = 0
+		#prerequisite = { focus = FIJ_Weeb }
+		mutually_exclusive = { focus = FIJ_Non_Allined}
+		x = 5
 		y = 0
 		cost = 5
 		ai_will_do = {
@@ -25,12 +26,494 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 15
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 0.9
-				uses = 3
-				category = land_doctrine
-			}
+
 		}
 	}
+###
+	focus = {
+		id = FIJ_Democracy
+		icon = GFX_goal_democracy_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Weeb }
+		mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Democracy_Right
+		icon = GFX_goal_democracy_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Democracy }
+		#mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		x = 2
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Democracy_Right_0
+		icon = GFX_goal_democracy_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Democracy_Right }
+		#mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		x = 2
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+		focus = {
+		id = FIJ_Democracy_Left
+		icon = GFX_goal_democracy_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Democracy }
+		#mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Democracy_Left_0
+		icon = GFX_goal_democracy_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Democracy_Left }
+		#mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		x = 0
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Democracy_0
+		icon = GFX_goal_democracy_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Democracy }
+		x = 1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Democracy_1
+		icon = GFX_goal_democracy_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Democracy_0 }
+		x = 1
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Communism
+		icon = GFX_goal_communist_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Weeb }
+		mutually_exclusive = { focus = FIJ_Democracy focus = FIJ_Fascist}
+		x = 5
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+		focus = {
+		id = FIJ_Communism_Right
+		icon = GFX_goal_communist_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Communism }
+		#mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		x = 6
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Communism_Right_0
+		icon = GFX_goal_communist_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Communism_Right }
+		#mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		x = 6
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+		focus = {
+		id = FIJ_Communism_Left
+		icon = GFX_goal_communist_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Communism }
+		#mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		x = 4
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Communism_Left_0
+		icon = GFX_goal_communist_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Communism_Left }
+		#mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		x = 4
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Communism_0
+		icon = GFX_goal_communist_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Communism }
+		x = 5
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Communism_1
+		icon = GFX_goal_communist_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Communism_0 }
+		x = 5
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Fascist
+		icon = GFX_goal_fascist_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Weeb }
+		mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Democracy}
+		x = 9
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Fascist_Right
+		icon = GFX_goal_fascist_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Fascist }
+		x = 10
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Fascist_Right_0
+		icon = GFX_goal_fascist_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Fascist_Right }
+		x = 10
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+		focus = {
+		id = FIJ_Fascist_Left
+		icon = GFX_goal_fascist_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Fascist }
+		x = 8
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Fascist_Left_0
+		icon = GFX_goal_fascist_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Fascist_Left }
+		x = 8
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Fascist_0
+		icon = GFX_goal_fascist_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Fascist }
+		x = 9
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Fascist_1
+		icon = GFX_goal_fascist_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Fascist_0 }
+		x = 9
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Non_Allined
+		icon = GFX_goal_non_alligned_baha
+		#text = extra_tech_slot
+		#prerequisite = { focus = ITA_industrial_effort_2 }
+		x = 20
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Non_Allined_0
+		icon = GFX_goal_non_alligned_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Non_Allined }
+		x = 20
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Non_Allined_1
+		icon = GFX_goal_non_alligned_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Non_Allined_0 }
+		x = 20
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+	focus = {
+		id = FIJ_Non_Allined_2
+		icon = GFX_goal_non_alligned_baha
+		#text = extra_tech_slot
+		prerequisite = { focus = FIJ_Non_Allined_1 }
+		x = 20
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+###
+}
