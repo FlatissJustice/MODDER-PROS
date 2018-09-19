@@ -49,7 +49,7 @@ country_event = {
 		}
 		add_timed_idea = {
 			idea = ECH_Army_Corruption
-			days = 360
+			days = 180
 		}
 	}
 }
@@ -107,7 +107,7 @@ country_event = {
 	
 	option = {
 		name = echo.3.a
-		ai_chance = { factor = 95 }
+		ai_chance = { factor = 99 }
 		ECH = {
 			annex_country = {
 				target = AST
@@ -118,7 +118,7 @@ country_event = {
 	
 	option = {
 		name = echo.3.b
-		ai_chance = { factor = 5 }
+		ai_chance = { factor = 1 }
 		add_opinion_modifier = {
 			target = ECH
 			modifier = protest_action_strong
@@ -191,7 +191,7 @@ country_event = {
 	
 	option = {
 		name = echo.5.a
-		ai_chance = { factor = 95 }
+		ai_chance = { factor = 99 }
 		ECH = {
 			annex_country = {
 				target = AST
@@ -202,7 +202,7 @@ country_event = {
 	
 	option = {
 		name = echo.5.b
-		ai_chance = { factor = 5 }
+		ai_chance = { factor = 1 }
 		add_opinion_modifier = {
 			target = ECH
 			modifier = protest_action_strong
