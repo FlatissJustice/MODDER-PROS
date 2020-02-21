@@ -1,8 +1,8 @@
-﻿capital = 559 #Up Australia
+﻿capital = 423 #Up Australia
 
-oob = "EAL_1936"
+oob = "EIR_1936"
 
-set_research_slots = 3
+set_research_slots = 2
 
 # Starting tech
 set_technology = {
@@ -37,16 +37,22 @@ set_technology = {
 	fleet_in_being = 1
 }
 
+set_stability = 0.2
+set_war_support = 0.9
+
 set_politics = {
 
-	parties = {
-		fascism = { 
-			popularity = 90
-		}	
-		communism = {
-			popularity = 10
-		}
-	}
-	ruling_party = fascism
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
+	set_popularities = {
+	
+	fascism = 10
+	communism = 5
+	democratic = 15
+	neutrality = 70
+	
+}

@@ -2,7 +2,7 @@
 
 oob = "ECR_1936"
 
-set_research_slots = 2
+set_research_slots = 1
 
 # Starting tech
 set_technology = {
@@ -37,16 +37,22 @@ set_technology = {
 	fleet_in_being = 1
 }
 
+set_stability = 0.1
+set_war_support = 1
+
 set_politics = {
 
-	parties = {
-		fascism = { 
-			popularity = 50
-		}	
-		communism = {
-			popularity = 50
-		}
-	}
 	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
+	set_popularities = {
+	
+	fascism = 45
+	communism = 45
+	democratic = 7
+	neutrality = 3
+	
+}

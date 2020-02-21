@@ -10,10 +10,10 @@
  ECH_democratic:0 "Democratic Echo Uprising"
  ECR_neutrality:0 "Echo Supported State"
  #
- FIJ_fascism:0 "Flat Is Justice"
- FIJ_communism:0  "Great Oppai Land"
- FIJ_democratic:0 "Pantsekai"
- FIJ_neutrality:0 "Trap Allience"
+ FLT_fascism:0 "Flat Is Justice"
+ FLT_communism:0  "Great Oppai Land"
+ FLT_democratic:0 "Pantsekai"
+ FLT_neutrality:0 "Trap Allience"
  #
  EIR_fascism:0 "Echo India"
  EIR_communism:0 "Echo India"

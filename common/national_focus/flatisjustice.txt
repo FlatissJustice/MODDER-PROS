@@ -6,16 +6,16 @@ focus_tree = {
 			
 		modifier = {
 			add = 10
-			tag = FIJ
+			tag = FLT
 		}
 	}
 ###
 	focus = {
-		id = FIJ_Weeb
+		id = FLT_Weeb
 		icon = GFX_goal_commuist_baha
 		#text = extra_tech_slot
-		#prerequisite = { focus = FIJ_Weeb }
-		mutually_exclusive = { focus = FIJ_Non_Allined}
+		#prerequisite = { focus = FLT_Weeb }
+		mutually_exclusive = { focus = FLT_Non_Allined}
 		x = 5
 		y = 0
 		cost = 5
@@ -31,11 +31,11 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Democracy
+		id = FLT_Democracy
 		icon = GFX_goal_democracy_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Weeb }
-		mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		prerequisite = { focus = FLT_Weeb }
+		mutually_exclusive = { focus = FLT_Communism focus = FLT_Fascist }
 		x = 1
 		y = 1
 		cost = 10
@@ -51,11 +51,11 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Democracy_Right
+		id = FLT_Democracy_Right
 		icon = GFX_goal_democracy_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Democracy }
-		#mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		prerequisite = { focus = FLT_Democracy }
+		#mutually_exclusive = { focus = FLT_Communism focus = FLT_Fascist }
 		x = 2
 		y = 2
 		cost = 10
@@ -71,11 +71,11 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Democracy_Right_0
+		id = FLT_Democracy_Right_0
 		icon = GFX_goal_democracy_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Democracy_Right }
-		#mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		prerequisite = { focus = FLT_Democracy_Right }
+		#mutually_exclusive = { focus = FLT_Communism focus = FLT_Fascist }
 		x = 2
 		y = 4
 		cost = 10
@@ -91,11 +91,11 @@ focus_tree = {
 	}
 ###
 		focus = {
-		id = FIJ_Democracy_Left
+		id = FLT_Democracy_Left
 		icon = GFX_goal_democracy_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Democracy }
-		#mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		prerequisite = { focus = FLT_Democracy }
+		#mutually_exclusive = { focus = FLT_Communism focus = FLT_Fascist }
 		x = 0
 		y = 2
 		cost = 10
@@ -111,11 +111,11 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Democracy_Left_0
+		id = FLT_Democracy_Left_0
 		icon = GFX_goal_democracy_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Democracy_Left }
-		#mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		prerequisite = { focus = FLT_Democracy_Left }
+		#mutually_exclusive = { focus = FLT_Communism focus = FLT_Fascist }
 		x = 0
 		y = 4
 		cost = 10
@@ -131,10 +131,10 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Democracy_0
+		id = FLT_Democracy_0
 		icon = GFX_goal_democracy_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Democracy }
+		prerequisite = { focus = FLT_Democracy }
 		x = 1
 		y = 3
 		cost = 10
@@ -150,10 +150,10 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Democracy_1
+		id = FLT_Democracy_1
 		icon = GFX_goal_democracy_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Democracy_0 }
+		prerequisite = { focus = FLT_Democracy_0 }
 		x = 1
 		y = 5
 		cost = 10
@@ -169,11 +169,11 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Communism
+		id = FLT_Communism
 		icon = GFX_goal_communist_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Weeb }
-		mutually_exclusive = { focus = FIJ_Democracy focus = FIJ_Fascist}
+		prerequisite = { focus = FLT_Weeb }
+		mutually_exclusive = { focus = FLT_Democracy focus = FLT_Fascist}
 		x = 5
 		y = 1
 		cost = 5
@@ -189,11 +189,11 @@ focus_tree = {
 	}
 ###
 		focus = {
-		id = FIJ_Communism_Right
+		id = FLT_Communism_Right
 		icon = GFX_goal_communist_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Communism }
-		#mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		prerequisite = { focus = FLT_Communism }
+		#mutually_exclusive = { focus = FLT_Communism focus = FLT_Fascist }
 		x = 6
 		y = 2
 		cost = 10
@@ -209,11 +209,11 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Communism_Right_0
+		id = FLT_Communism_Right_0
 		icon = GFX_goal_communist_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Communism_Right }
-		#mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		prerequisite = { focus = FLT_Communism_Right }
+		#mutually_exclusive = { focus = FLT_Communism focus = FLT_Fascist }
 		x = 6
 		y = 4
 		cost = 10
@@ -229,11 +229,11 @@ focus_tree = {
 	}
 ###
 		focus = {
-		id = FIJ_Communism_Left
+		id = FLT_Communism_Left
 		icon = GFX_goal_communist_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Communism }
-		#mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		prerequisite = { focus = FLT_Communism }
+		#mutually_exclusive = { focus = FLT_Communism focus = FLT_Fascist }
 		x = 4
 		y = 2
 		cost = 10
@@ -249,11 +249,11 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Communism_Left_0
+		id = FLT_Communism_Left_0
 		icon = GFX_goal_communist_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Communism_Left }
-		#mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Fascist }
+		prerequisite = { focus = FLT_Communism_Left }
+		#mutually_exclusive = { focus = FLT_Communism focus = FLT_Fascist }
 		x = 4
 		y = 4
 		cost = 10
@@ -269,10 +269,10 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Communism_0
+		id = FLT_Communism_0
 		icon = GFX_goal_communist_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Communism }
+		prerequisite = { focus = FLT_Communism }
 		x = 5
 		y = 3
 		cost = 5
@@ -288,10 +288,10 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Communism_1
+		id = FLT_Communism_1
 		icon = GFX_goal_communist_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Communism_0 }
+		prerequisite = { focus = FLT_Communism_0 }
 		x = 5
 		y = 5
 		cost = 5
@@ -307,11 +307,11 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Fascist
+		id = FLT_Fascist
 		icon = GFX_goal_fascist_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Weeb }
-		mutually_exclusive = { focus = FIJ_Communism focus = FIJ_Democracy}
+		prerequisite = { focus = FLT_Weeb }
+		mutually_exclusive = { focus = FLT_Communism focus = FLT_Democracy}
 		x = 9
 		y = 1
 		cost = 5
@@ -327,10 +327,10 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Fascist_Right
+		id = FLT_Fascist_Right
 		icon = GFX_goal_fascist_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Fascist }
+		prerequisite = { focus = FLT_Fascist }
 		x = 10
 		y = 2
 		cost = 5
@@ -346,10 +346,10 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Fascist_Right_0
+		id = FLT_Fascist_Right_0
 		icon = GFX_goal_fascist_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Fascist_Right }
+		prerequisite = { focus = FLT_Fascist_Right }
 		x = 10
 		y = 4
 		cost = 5
@@ -365,10 +365,10 @@ focus_tree = {
 	}
 ###
 		focus = {
-		id = FIJ_Fascist_Left
+		id = FLT_Fascist_Left
 		icon = GFX_goal_fascist_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Fascist }
+		prerequisite = { focus = FLT_Fascist }
 		x = 8
 		y = 2
 		cost = 5
@@ -384,10 +384,10 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Fascist_Left_0
+		id = FLT_Fascist_Left_0
 		icon = GFX_goal_fascist_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Fascist_Left }
+		prerequisite = { focus = FLT_Fascist_Left }
 		x = 8
 		y = 4
 		cost = 5
@@ -403,10 +403,10 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Fascist_0
+		id = FLT_Fascist_0
 		icon = GFX_goal_fascist_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Fascist }
+		prerequisite = { focus = FLT_Fascist }
 		x = 9
 		y = 3
 		cost = 5
@@ -422,10 +422,10 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Fascist_1
+		id = FLT_Fascist_1
 		icon = GFX_goal_fascist_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Fascist_0 }
+		prerequisite = { focus = FLT_Fascist_0 }
 		x = 9
 		y = 5
 		cost = 5
@@ -441,7 +441,7 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Non_Allined
+		id = FLT_Non_Allined
 		icon = GFX_goal_non_alligned_baha
 		#text = extra_tech_slot
 		#prerequisite = { focus = ITA_industrial_effort_2 }
@@ -460,10 +460,10 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Non_Allined_0
+		id = FLT_Non_Allined_0
 		icon = GFX_goal_non_alligned_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Non_Allined }
+		prerequisite = { focus = FLT_Non_Allined }
 		x = 20
 		y = 1
 		cost = 5
@@ -479,10 +479,10 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Non_Allined_1
+		id = FLT_Non_Allined_1
 		icon = GFX_goal_non_alligned_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Non_Allined_0 }
+		prerequisite = { focus = FLT_Non_Allined_0 }
 		x = 20
 		y = 2
 		cost = 5
@@ -498,10 +498,10 @@ focus_tree = {
 	}
 ###
 	focus = {
-		id = FIJ_Non_Allined_2
+		id = FLT_Non_Allined_2
 		icon = GFX_goal_non_alligned_baha
 		#text = extra_tech_slot
-		prerequisite = { focus = FIJ_Non_Allined_1 }
+		prerequisite = { focus = FLT_Non_Allined_1 }
 		x = 20
 		y = 3
 		cost = 5

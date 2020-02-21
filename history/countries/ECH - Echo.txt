@@ -36,26 +36,21 @@ set_technology = {
 	mass_assault = 1
 	fleet_in_being = 1
 }
+
 set_politics = {
 
-	parties = {
-		fascism = { 
-			popularity = 10
-		}	
-	
-		democratic = { 
-			popularity = 05
-		}
-		
-		communism = {
-			popularity = 05
-		}
-		
-		neutrality = { 
-			popularity = 80
-		}
-	}
 	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	
+	fascism = 15
+	communism = 15
+	democratic = 10
+	neutrality = 60
 	
 }
 
@@ -87,22 +82,6 @@ if = {
 		puppet = EOM
 	}
 }
-
-set_autonomy = {
-		target = EIR
-		autonomous_state = autonomy_colony
-		freedom_level = 0.75
-	}
-set_autonomy = {
-		target = EAL
-		autonomous_state = autonomy_colony
-		freedom_level = 0.80
-	}
-set_autonomy = {
-		target = EOM
-		autonomous_state = autonomy_colony
-		freedom_level = 0.70
-	}
 
 add_ideas = {
 	ECH_manpower_boost
@@ -154,17 +133,3 @@ create_country_leader = {
 		
 	}
 }
-
-#create_country_leader = {
-#	name = "Hovhannes Kajaznuni"
-#	desc = ""
-#	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-#	expire = "1953.3.1"
-#	ideology = conservatism
-#	traits = {
-#		
-#	}
-#}
-
-
-
