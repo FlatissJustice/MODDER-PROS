@@ -1,0 +1,17 @@
+﻿l_english:
+ echo.1.t:0 "Army Corruption Problem In Echo"
+ echo.1.d:0 "Corruption of our army is a big obstacle on our fate to become a major nation in this century. We must focus on our army's organization or this will cause problems later on."
+ echo.1.a:0 "We can't ignore this"
+ echo.1.b:0 "We have greater issues"
+ echo.2.t:0 "Unification Of Australia"
+ echo.2.d:0 "Atlast Australian Continent is united under one flag. What this means for the world is unknown."
+ #
+ news.600.t:0 "New Ruler Of Australian Continent"
+ news.600.d:0 "Australian Continent has a new ruler, Echo. After the events happened at Australia, all continent was united under the Echo flag. What this means for the world is unknown." 
+ news.600.a:0 "Interesting"
+ news.600.b:0 "Finally"
+ news.600.c:0 "We Lost An Ally"
+ #
+ echo.congress.t:0 "Echo Congress"
+ echo.congress.a:0 "Yesterday a congress was held at Echo Sydney. Congress was about the Echo's claims on Australia. The Australian ambassador said before the congress -I very much look forward to much peaceful future between Echo and Australia.- ."
+ echo.congress.b:0 "Yesterday a congress was held at Echo Sydney. Congress was about the Echo's claims on Australia. An Echo ambassador said before the congress -I very much look forward to a unified continent and peaceful future.- ."

@@ -1,4 +1,4 @@
-﻿capital = 763 #West Oman
+﻿capital = 788 #West Oman
 oob = "EOM_1936"
 
 set_research_slots = 3

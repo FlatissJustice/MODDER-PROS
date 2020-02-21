@@ -1,0 +1,8 @@
+ECH = "countries/Echo.txt"
+ECR = "countries/Regime.txt"
+EAL = "countries/League.txt"
+EIR = "countries/Echo India.txt"
+EOM = "countries/Echo Oman.txt"
+#
+FIJ = "countries/Flat Is Justice.txt"
+

@@ -1,0 +1,31 @@
+﻿l_english:
+ #
+ ECH_fascism:0 "Echo Empire"
+ ECH_communism:0 "United Echo Provinces Of Oceania"
+ ECH_democratic:0 "Echo Republic"
+ ECH_neutrality:0 "Echo Kingdoms"
+ #
+ ECR_fascism:0 "Echo Supported Rebel State"
+ ECR_communism:0 "Echo Supported Rebel State"
+ ECH_democratic:0 "Democratic Echo Uprising"
+ ECR_neutrality:0 "Echo Supported State"
+ #
+ FIJ_fascism:0 "Flat Is Justice"
+ FIJ_communism:0  "Great Oppai Land"
+ FIJ_democratic:0 "Pantsekai"
+ FIJ_neutrality:0 "Trap Allience"
+ #
+ EIR_fascism:0 "Echo India"
+ EIR_communism:0 "Echo India"
+ EIR_democratic:0 "Echo India"
+ EIR_neutrality:0 "Echo India"
+ #
+ EAL_fascism:0 "African League"
+ EAL_communism:0 "African League"
+ EAL_democratic:0 "African League"
+ EAL_neutrality:0 "African League"
+ #
+ EOM_fascism:0 "Echo Oman"
+ EOM_communism:0 "Echo Oman"
+ EOM_democratic:0 "Echo Oman"
+ EOM_neutrality:0 "Echo Oman"

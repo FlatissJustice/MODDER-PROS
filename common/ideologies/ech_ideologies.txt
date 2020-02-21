@@ -1,0 +1,13 @@
+ideologies = {
+	
+	neutrality = {
+	
+		types = {
+			
+			bozanizm = {
+			}
+			
+		}
+		
+	}
+}
